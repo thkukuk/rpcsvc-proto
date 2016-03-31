@@ -1,0 +1,4 @@
+This package contains rpcsvc proto.x files from glibc, which are
+missing in libtirpc. This package is only needed, if glibc is
+installed without the deprecated sunrpc functionality and libtirpc
+should replace it.
