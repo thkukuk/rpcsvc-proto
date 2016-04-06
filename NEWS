@@ -4,5 +4,8 @@ Copyright (C) 2016 Thorsten Kukuk
 
 Please send bug reports, questions and suggestions to <kukuk@linux-nis.org>.
 
+Version 1.1
+* Add rpcgen
+
 Version 1.0
 * Initial version

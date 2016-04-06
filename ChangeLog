@@ -1,5 +1,32 @@
+2016-04-06  Thorsten Kukuk  <kukuk@thkukuk.de>
+
+	* release version 1.1
+
+	* Makefile.am: Add rpcgen to SUBDIRS
+	* README: enhance with rpcgen
+	* autogen.sh: enable autoheader
+	* configure.ac: disable rpcgen check, add check for C compiler
+	toolchain
+	* rpcsvc/Makefile.am: Use own rpcgen
+	* rpcgen/Makefile.am: New
+	* rpcgen/proto.h: New, from glibc/sunrpc
+	* rpcgen/rpc_clntout.c: Likewise
+	* rpcgen/rpc_cout.c: Likewise
+	* rpcgen/rpc_hout.c: Likewise
+	* rpcgen/rpc_main.c: Likewise
+	* rpcgen/rpc_parse.c: Likewise
+	* rpcgen/rpc_parse.h: Likewise
+	* rpcgen/rpc_sample.c: Likewise
+	* rpcgen/rpc_scan.c: Likewise
+	* rpcgen/rpc_scan.h: Likewise
+	* rpcgen/rpc_svcout.c: Likewise
+	* rpcgen/rpc_tblout.c: Likewise
+	* rpcgen/rpc_util.c: Likewise
+	* rpcgen/rpc_util.h: Likewise
+	* rpcgen/rpcgen.1: New
+
 2016-03-31  Thorsten Kukuk  <kukuk@thkukuk.de>
 
-	* released version 1.0
+	* release version 1.0
 
 	* Initial version
