@@ -1,12 +1,9 @@
-#
-# Copyright (c) 2016 Thorsten Kukuk <kukuk@linux-nis.org>
-#
 
 rpcsvcdir = $(includedir)/rpcsvc
 
 CLEANFILES = *~ $(nodist_rpcsvc_HEADERS)
 
-rpcsvc_HEADERS = bootparam.h klm_prot.x nlm_prot.x rstat.x spray.x \
+rpcsvc_HEADERS = klm_prot.x nlm_prot.x rstat.x spray.x \
 	bootparam_prot.x mount.x rex.x rusers.x key_prot.x nfs_prot.x \
 	rquota.x sm_inter.x
 
