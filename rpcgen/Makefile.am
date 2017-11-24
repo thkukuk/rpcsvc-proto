@@ -1,6 +1,3 @@
-#
-# Copyright (c) 2016 Thorsten Kukuk <kukuk@linux-nis.org>
-#
 CLEANFILES = *~
 
 bin_PROGRAMS = rpcgen

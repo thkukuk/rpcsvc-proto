@@ -1,5 +1,5 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_INIT(rpcsvc-proto, 1.2, kukuk@linux-nis.org)
+AC_INIT(rpcsvc-proto, 1.3, kukuk@thkukuk.de)
 AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([rpcgen/rpc_main.c])
 AM_CONFIG_HEADER(config.h)
