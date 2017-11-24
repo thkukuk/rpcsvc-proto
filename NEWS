@@ -4,6 +4,9 @@ Copyright (C) 2016 Thorsten Kukuk
 
 Please send bug reports, questions and suggestions to <kukuk@linux-nis.org>.
 
+Version 1.2
+* Fix possible buffer overrun in rpcgen
+
 Version 1.1
 * Add rpcgen
 

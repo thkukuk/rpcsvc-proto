@@ -520,7 +520,7 @@ static void
 get_prog_declaration (declaration * dec, defkind dkind, int num /* arg number */ )
 {
   token tok;
-  char name[10];		/* argument name */
+  char name[MAXLINESIZE];		/* argument name */
 
   if (dkind == DEF_PROGRAM)
     {
