@@ -1,8 +1,11 @@
 rpcsvc-proto NEWS -- history of user-visible changes.
 
-Copyright (C) 2016,2017 Thorsten Kukuk
+Copyright (C) 2016-2018 Thorsten Kukuk
 
-Please send bug reports, questions and suggestions to <kukuk@thkukuk.de>.
+Please use https://github.com/thkukuk/rpcsvc-proto/issues for bug reports.
+
+Version 1.3.1
+* Fix autogen.sh
 
 Version 1.3
 * Only use BSD-3 Clause code
