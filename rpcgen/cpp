@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# This script is used solely by rpcgen when run during the build.
+# It allows using CPP from the environment rather than a hardcoded path.
+
+exec ${CPP} "$@"

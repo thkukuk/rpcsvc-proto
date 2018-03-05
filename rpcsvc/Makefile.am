@@ -12,5 +12,5 @@ nodist_rpcsvc_HEADERS = klm_prot.h nlm_prot.h rstat.h spray.h \
 	nfs_prot.h rquota.h sm_inter.h
 
 %.h: %.x
-	$(top_builddir)/rpcgen/rpcgen -h -o $@ $<
+	CPP='$(CC) -E -x c-header' $(top_builddir)/rpcgen/rpcgen -Y $(top_srcdir)/rpcgen -h -o $@ $<
 
