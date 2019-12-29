@@ -5,5 +5,5 @@ aclocal
 autoheader
 #libtoolize --automake --copy
 automake --add-missing --copy --force
-autoreconf
+autoreconf --install
 chmod 755 configure
