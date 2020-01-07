@@ -16,4 +16,7 @@ AC_ISC_POSIX
 AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.18.1])
+
 AC_OUTPUT([Makefile rpcgen/Makefile rpcsvc/Makefile])
