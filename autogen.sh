@@ -1,6 +1,6 @@
 #!/bin/sh -x
 
-rm -fv config.sub config.guess config.h.in aclocal.m4
+rm -rfv config.sub config.guess config.h.in aclocal.m4 config.rpath m4
 aclocal
 autoheader
 #libtoolize --automake --copy

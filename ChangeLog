@@ -1,3 +1,16 @@
+2020-01-07  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* m4/gettext.m4: Upgrade to gettext-0.19.8.1.
+	* m4/iconv.m4: Upgrade to gettext-0.19.8.1.
+	* m4/lib-ld.m4: Upgrade to gettext-0.19.8.1.
+	* m4/lib-link.m4: Upgrade to gettext-0.19.8.1.
+	* m4/lib-prefix.m4: Upgrade to gettext-0.19.8.1.
+	* m4/nls.m4: Upgrade to gettext-0.19.8.1.
+	* m4/po.m4: Upgrade to gettext-0.19.8.1.
+	* m4/progtest.m4: Upgrade to gettext-0.19.8.1.
+	* Makefile.am (ACLOCAL_AMFLAGS): New variable.
+	* configure.ac (AM_GNU_GETTEXT_VERSION): Bump to 0.19.8.
+
 2016-04-06  Thorsten Kukuk  <kukuk@thkukuk.de>
 
 	* release version 1.1

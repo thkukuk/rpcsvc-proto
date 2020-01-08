@@ -38,6 +38,12 @@ po/POTFILES
 po/stamp-po
 po/remove-potcdate.sed
 po/*.gmo
+ABOUT-NLS
+INSTALL
+config.rpath
+rpcgen/rpcgen
+
+
 
 # tar archive
 rpcsvc-proto-*.tar.*
