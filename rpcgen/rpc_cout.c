@@ -353,6 +353,7 @@ emit_program (const definition * def)
       }
 }
 
+#pragma GCC diagnostic ignored "-Wformat-nonliteral"
 static void
 emit_union (const definition * def)
 {
@@ -430,6 +431,7 @@ emit_union (const definition * def)
 
   f_print (fout, "\t}\n");
 }
+#pragma GCC diagnostic warning "-Wformat-nonliteral"
 
 static void
 inline_struct (definition *def, int flag)
