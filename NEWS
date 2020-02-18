@@ -1,8 +1,11 @@
 rpcsvc-proto NEWS -- history of user-visible changes.
 
-Copyright (C) 2016-2018 Thorsten Kukuk
+Copyright (C) 2016-2020 Thorsten Kukuk
 
 Please use https://github.com/thkukuk/rpcsvc-proto/issues for bug reports.
+
+Version 1.4.1
+* Add support for external libintl
 
 Version 1.4
 * Remove historic _RPC_THREAD_SAFE_ preprocessor conditional
