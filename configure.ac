@@ -17,6 +17,9 @@ AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 
 AM_GNU_GETTEXT([external])
+m4_ifndef([AM_GNU_GETTEXT_REQUIRE_VERSION],
+  [m4_define([AM_GNU_GETTEXT_REQUIRE_VERSION], [])])
+AM_GNU_GETTEXT_REQUIRE_VERSION([0.19.8])
 AM_GNU_GETTEXT_VERSION([0.19.8])
 
 AC_OUTPUT([Makefile rpcgen/Makefile rpcsvc/Makefile po/Makefile.in])
