@@ -4,6 +4,9 @@ Copyright (C) 2016-2020 Thorsten Kukuk
 
 Please use https://github.com/thkukuk/rpcsvc-proto/issues for bug reports.
 
+Version 1.4.2
+* Allow newer gettext versions
+
 Version 1.4.1
 * Add support for external libintl
 
