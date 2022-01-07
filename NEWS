@@ -1,8 +1,11 @@
 rpcsvc-proto NEWS -- history of user-visible changes.
 
-Copyright (C) 2016-2020 Thorsten Kukuk
+Copyright (C) 2016-2022 Thorsten Kukuk
 
 Please use https://github.com/thkukuk/rpcsvc-proto/issues for bug reports.
+
+Version 1.4.3
+* Fix rpcgen build on macos arm64
 
 Version 1.4.2
 * Allow newer gettext versions
