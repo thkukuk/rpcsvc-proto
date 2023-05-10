@@ -38,11 +38,12 @@ po/POTFILES
 po/stamp-po
 po/remove-potcdate.sed
 po/*.gmo
+po/Makevars.template
 ABOUT-NLS
 INSTALL
 config.rpath
 rpcgen/rpcgen
-
+m4
 
 
 # tar archive
