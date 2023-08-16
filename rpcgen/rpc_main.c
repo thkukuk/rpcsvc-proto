@@ -1020,7 +1020,8 @@ $(TARGETS_SVC.c) \n\n");
 $(LDLIBS) \n\n");
   f_print (fout, "$(SERVER) : $(OBJECTS_SVC) \n");
   f_print (fout, "\t$(LINK.c) -o $(SERVER) $(OBJECTS_SVC) $(LDLIBS)\n\n ");
-  f_print (fout, "clean:\n\t $(RM) core $(TARGETS) $(OBJECTS_CLNT) \
+  f_print (fout, "clean:\n\t $(RM) *.o $(CLIENT) $(SERVER)\n\n");
+  f_print (fout, "clean_all:\n\t $(RM) core $(TARGETS) $(OBJECTS_CLNT) \
 $(OBJECTS_SVC) $(CLIENT) $(SERVER)\n\n");
   close_output (mkfilename);
 
