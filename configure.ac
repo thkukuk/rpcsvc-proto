@@ -23,4 +23,18 @@ AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_VERSION([0.20.2])
 AM_GNU_GETTEXT_REQUIRE_VERSION([0.19.2])
 
+RPCGEN='$(top_builddir)/rpcgen/rpcgen'
+AC_ARG_WITH([prebuilt-rpcgen],
+  AS_HELP_STRING(
+    [--with-prebuilt-rpcgen],
+    [use prebuilt rpcgen to generate rpcsvc headers]
+  ),
+  AS_CASE([$withval],
+    [no],  [],
+    [yes], [RPCGEN=rpcgen],
+           [RPCGEN=$withval]
+  )
+)
+AC_SUBST([RPCGEN])
+
 AC_OUTPUT([Makefile rpcgen/Makefile rpcsvc/Makefile po/Makefile.in])
