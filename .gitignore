@@ -39,6 +39,7 @@ po/stamp-po
 po/remove-potcdate.sed
 po/*.gmo
 po/Makevars.template
+po/Makefile.in.in
 ABOUT-NLS
 INSTALL
 config.rpath
