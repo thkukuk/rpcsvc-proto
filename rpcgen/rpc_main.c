@@ -342,6 +342,12 @@ find_cpp (void)
       crash ();
     }
 
+  if ((CPP = getenv("RPCGEN_CPP")) != NULL)
+    return;
+
+  if ((CPP = getenv("CPP")) != NULL)
+    return;
+
   /* fall back to system CPP */
   CPP = "cpp";
 }
